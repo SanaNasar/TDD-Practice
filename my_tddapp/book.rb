@@ -1,8 +1,8 @@
 class Book
-  
-  #new method with an instance book
-  # def new (title, author, category)
-  #   @Book
-  # end
-
+  attr_accessor :title, :author, :category
+    def initialize title, author, category
+      @title = title
+      @author = author
+      @category = category
+    end
 end
